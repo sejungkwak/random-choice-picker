@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d4059;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+}
+
+.instruction {
+    color: #ffd460;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.choices-input {
+    font-family: inherit;
+    padding: 10px;
+    border: double 3px #2d4059;
+}
+
+.choices {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 50px;
+    background-color: #1fab89;
+    color: #fdfdfd;
+}
+
+.choice-pick {
+    background-color: #ea5455;
+}
